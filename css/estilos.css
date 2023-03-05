@@ -1,0 +1,41 @@
+#boto {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    padding: 10px;
+    z-index: 400;
+  }
+
+#boto2 {
+    position: absolute;
+    top: 140px;
+    right: 20px;
+    padding: 10px;
+    z-index: 400;
+  }
+
+#boto3 {
+    position: absolute;
+    top: 190px;
+    right: 20px;
+    padding: 10px;
+    z-index: 400;
+  }
+
+  #map { 
+    height: 98vh;
+    width: 99vw;
+   }
+
+
+/* AQUESTS DOS DE SOTA SÓN PER A QUE DEIXI DE SORTIR LA FRANJA BLANCA A LES BANDES DEL MAPA */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #map {
+    height: 100%;
+    width: 100vw;
+}
